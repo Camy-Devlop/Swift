@@ -7,6 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+print("entrer les mesure ")
+var s:Mesure=TraitementString.convertion(readLine()!)
 
-print("hello big master")
+print(s.toString())
