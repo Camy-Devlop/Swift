@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A21D9E72737817300CD981E /* Surface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A21D9E62737817300CD981E /* Surface.swift */; };
+		4A21D9EB2737819B00CD981E /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A21D9EA2737819B00CD981E /* Volume.swift */; };
+		4A21D9EF273781BE00CD981E /* MasseVolumique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A21D9EE273781BE00CD981E /* MasseVolumique.swift */; };
 		4ADA4EE627305D2B00EAC33E /* TraitementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4EE427305D2900EAC33E /* TraitementString.swift */; };
-		4ADA4EE727305D2B00EAC33E /* Mesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4EE527305D2A00EAC33E /* Mesure.swift */; };
+		4ADA4EE727305D2B00EAC33E /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4EE527305D2A00EAC33E /* Distance.swift */; };
 		4ADA4EF327305DC200EAC33E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4EF227305DC200EAC33E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A21D9E62737817300CD981E /* Surface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surface.swift; sourceTree = "<group>"; };
+		4A21D9EA2737819B00CD981E /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		4A21D9EE273781BE00CD981E /* MasseVolumique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasseVolumique.swift; sourceTree = "<group>"; };
 		4ADA4ED927305C5F00EAC33E /* mesure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mesure; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA4EE427305D2900EAC33E /* TraitementString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitementString.swift; sourceTree = "<group>"; };
-		4ADA4EE527305D2A00EAC33E /* Mesure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesure.swift; sourceTree = "<group>"; };
+		4ADA4EE527305D2A00EAC33E /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 		4ADA4EF227305DC200EAC33E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,9 +67,12 @@
 		4ADA4EDB27305C5F00EAC33E /* mesure */ = {
 			isa = PBXGroup;
 			children = (
-				4ADA4EE527305D2A00EAC33E /* Mesure.swift */,
+				4ADA4EE527305D2A00EAC33E /* Distance.swift */,
 				4ADA4EE427305D2900EAC33E /* TraitementString.swift */,
 				4ADA4EF227305DC200EAC33E /* main.swift */,
+				4A21D9E62737817300CD981E /* Surface.swift */,
+				4A21D9EA2737819B00CD981E /* Volume.swift */,
+				4A21D9EE273781BE00CD981E /* MasseVolumique.swift */,
 			);
 			path = mesure;
 			sourceTree = "<group>";
@@ -125,8 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A21D9EB2737819B00CD981E /* Volume.swift in Sources */,
 				4ADA4EE627305D2B00EAC33E /* TraitementString.swift in Sources */,
-				4ADA4EE727305D2B00EAC33E /* Mesure.swift in Sources */,
+				4A21D9E72737817300CD981E /* Surface.swift in Sources */,
+				4A21D9EF273781BE00CD981E /* MasseVolumique.swift in Sources */,
+				4ADA4EE727305D2B00EAC33E /* Distance.swift in Sources */,
 				4ADA4EF327305DC200EAC33E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

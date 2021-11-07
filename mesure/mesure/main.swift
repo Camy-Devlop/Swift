@@ -8,6 +8,6 @@
 import Foundation
 
 print("entrer les mesure ")
-var s:Mesure=TraitementString.convertion(readLine()!)
+var s:Volume=Volume(23,"m3")
 
-print(s.toString())
+print(s.dm3)

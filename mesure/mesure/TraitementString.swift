@@ -32,8 +32,8 @@ extension String{
 class TraitementString
 {
 
-    static func convertion(_ a:String)->Mesure    {
-        var mesure:Mesure
+    static func convertion(_ a:String)->Distance    {
+        var mesure:Distance
         var valeur:String?=""
         var uniter:String?=""
         
@@ -52,13 +52,13 @@ class TraitementString
             
                 if (Double(String(valeur!) ) != nil)
                 {
-                    mesure = Mesure(Double(String(valeur!))! ,  uniter!)
+                    mesure = Distance(Double(String(valeur!))! ,  uniter!)
                     return mesure
                 }else
-                {return Mesure(a: 0.0, b: "Km")}
+                {return Distance(a: 0.0, b: "Km")}
             
         case true:
-            return Mesure(a: 0.0, b: "Km")
+            return Distance(a: 0.0, b: "Km")
         }
         
             
